@@ -28,7 +28,7 @@ This repository contains the laboratory experiments and reports completed as par
 ### Experiment 3 – Creation of a Simple Network Topology Using Open-Source Network Virtualization Tools
 
 - Installed and configured Mininet on Ubuntu Linux.
-- Created a simple `single,3` topology with one switch and three hosts.
+- Created a `single,3` topology with one switch and three hosts.
 - Verified the topology using Mininet networking commands.
 - Tested communication using `pingall`.
 - Created a `tree,3` topology with eight hosts and seven switches.
@@ -38,6 +38,19 @@ This repository contains the laboratory experiments and reports completed as par
 
 **Report:** [Lab3_Report.pdf](Lab3_Report.pdf)
 
+### Experiment 4 – Software-Defined Networking (SDN) Using Mininet, Open vSwitch and Ryu Controller
+
+- Installed and configured Mininet and Open vSwitch.
+- Installed and configured the Ryu SDN Controller.
+- Created a `single,3` topology with three hosts and one switch.
+- Connected Mininet to the remote Ryu controller using OpenFlow 1.3.
+- Tested network connectivity using `pingall`.
+- Inspected OpenFlow flow tables using `ovs-ofctl`.
+- Implemented traffic filtering using a high-priority drop rule.
+- Removed flow rules and cleaned up the Mininet network.
+
+**Report:** [Lab4_SDN_Report.pdf](Lab4_SDN_Report.pdf)
+
 ## Technologies Used
 
 - Oracle VirtualBox
@@ -46,6 +59,9 @@ This repository contains the laboratory experiments and reports completed as par
 - TCP/IP
 - Socket Programming
 - Mininet
+- Open vSwitch
+- Ryu Controller
+- OpenFlow 1.3
 - Git & GitHub
 
 ## Repository Structure
@@ -56,4 +72,6 @@ Cloud-Computing-Lab/
 ├── README.md
 ├── Lab1_Report.pdf
 ├── Lab2_Report.pdf
-└── Lab3_Report.pdf
+├── Lab3_Report.pdf
+└── Lab4_SDN_Report.pdf
+```
