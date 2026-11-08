@@ -63,7 +63,7 @@ This repository contains the laboratory experiments and reports completed as par
   - VM TimeShared + Cloudlet TimeShared.
 - Successfully compiled and executed all four scheduling scenarios.
 
-**Report:** [Experiment_5_Cloud_Scheduling_Report.pdf](Experiment_5_Cloud_Scheduling_Report.pdf)
+**Report:** [Experiment_5_Cloud_Scheduling_Report.pdf](Lab5_Cloud_Scheduling_Report.pdf)
 
 ## Technologies Used
 
