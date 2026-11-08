@@ -91,5 +91,5 @@ Cloud-Computing-Lab/
 ├── Lab2_Report.pdf
 ├── Lab3_Report.pdf
 ├── Lab4_SDN_Report.pdf
-└── Experiment_5_Cloud_Scheduling_Report.pdf
+└── Lab5_Cloud_Scheduling_Report.pdf
 ```
