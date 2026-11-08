@@ -51,11 +51,28 @@ This repository contains the laboratory experiments and reports completed as par
 
 **Report:** [Lab4_SDN_Report.pdf](Lab4_SDN_Report.pdf)
 
+### Experiment 5 – Implementation of Various Scheduling Mechanisms Using CloudSim Plus
+
+- Set up Java 17, Maven, and Git on Ubuntu.
+- Created a Maven project using the CloudSim Plus simulator.
+- Simulated a datacenter with one host, two virtual machines, and four cloudlets.
+- Implemented and compared four scheduling combinations:
+  - VM SpaceShared + Cloudlet SpaceShared.
+  - VM SpaceShared + Cloudlet TimeShared.
+  - VM TimeShared + Cloudlet SpaceShared.
+  - VM TimeShared + Cloudlet TimeShared.
+- Successfully compiled and executed all four scheduling scenarios.
+
+**Report:** [Experiment_5_Cloud_Scheduling_Report.pdf](Experiment_5_Cloud_Scheduling_Report.pdf)
+
 ## Technologies Used
 
 - Oracle VirtualBox
 - Ubuntu Linux
 - Python
+- Java 17
+- Apache Maven
+- CloudSim Plus
 - TCP/IP
 - Socket Programming
 - Mininet
@@ -73,5 +90,6 @@ Cloud-Computing-Lab/
 ├── Lab1_Report.pdf
 ├── Lab2_Report.pdf
 ├── Lab3_Report.pdf
-└── Lab4_SDN_Report.pdf
+├── Lab4_SDN_Report.pdf
+└── Experiment_5_Cloud_Scheduling_Report.pdf
 ```
