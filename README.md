@@ -65,6 +65,20 @@ This repository contains the laboratory experiments and reports completed as par
 
 **Report:** [Lab5_Cloud_Scheduling_Report.pdf](Lab5_Cloud_Scheduling_Report.pdf)
 
+### Experiment 6 – Familiarization and Usage of Cloud Services Using AWS and Open-Source Cloud Tools
+
+- Updated Ubuntu Linux and installed basic utilities using the terminal.
+- Created a private Amazon S3 bucket with public access blocked and default encryption enabled.
+- Uploaded, downloaded, verified, and deleted a sample file using the AWS Management Console.
+- Explored AWS IAM roles, policies, users, and root access management.
+- Explored Amazon EC2 instance configuration without launching an instance.
+- Explored Amazon VPC components, including subnets, route tables, internet gateways, and security groups.
+- Explored Amazon CloudWatch metrics and alarms.
+- Used AWS CloudShell and AWS CLI to create an S3 bucket, upload, list, download, and verify a file.
+- Deleted the test S3 object and bucket to avoid unnecessary resource usage.
+
+**Report:** [Lab_6_Report.pdf](Lab_6_Report.pdf)
+
 ## Technologies Used
 
 - Oracle VirtualBox
@@ -79,6 +93,13 @@ This repository contains the laboratory experiments and reports completed as par
 - Open vSwitch
 - Ryu Controller
 - OpenFlow 1.3
+- Amazon Web Services (AWS)
+- Amazon S3
+- AWS IAM
+- Amazon EC2
+- Amazon VPC
+- Amazon CloudWatch
+- AWS CLI
 - Git & GitHub
 
 ## Repository Structure
@@ -91,5 +112,6 @@ Cloud-Computing-Lab/
 ├── Lab2_Report.pdf
 ├── Lab3_Report.pdf
 ├── Lab4_SDN_Report.pdf
-└── Lab5_Cloud_Scheduling_Report.pdf
+├── Lab5_Cloud_Scheduling_Report.pdf
+└── Lab_6_Report.pdf
 ```
