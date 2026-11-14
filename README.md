@@ -79,6 +79,20 @@ This repository contains the laboratory experiments and reports completed as par
 
 **Report:** [Lab_6_Report.pdf](Lab_6_Report.pdf)
 
+### Experiment 7 – Familiarization and Usage of Collaborative Applications (SaaS)
+
+- Studied the Software as a Service (SaaS) cloud service model and its features.
+- Created and shared a collaborative document using Google Docs.
+- Performed real-time collaborative editing, commenting, and version history operations.
+- Created a spreadsheet using Google Sheets with student records.
+- Performed calculations using SUM, AVERAGE, MAX, and MIN functions.
+- Shared the spreadsheet and performed collaborative data entry and cell commenting.
+- Created a four-slide presentation using Google Slides.
+- Shared the presentation and performed collaborative editing and commenting.
+- Explored online communication and collaboration platforms, including Google Meet, Microsoft Teams, and Zoom.
+
+**Report:** [Lab_7_Report.pdf](Lab_7_Report.pdf)
+
 ## Technologies Used
 
 - Oracle VirtualBox
@@ -100,6 +114,9 @@ This repository contains the laboratory experiments and reports completed as par
 - Amazon VPC
 - Amazon CloudWatch
 - AWS CLI
+- Software as a Service (SaaS)
+- Google Docs, Google Sheets and Google Slides
+- Google Meet, Microsoft Teams and Zoom
 - Git & GitHub
 
 ## Repository Structure
@@ -113,5 +130,6 @@ Cloud-Computing-Lab/
 ├── Lab3_Report.pdf
 ├── Lab4_SDN_Report.pdf
 ├── Lab5_Cloud_Scheduling_Report.pdf
-└── Lab_6_Report.pdf
+├── Lab_6_Report.pdf
+└── Lab_7_Report.pdf
 ```
