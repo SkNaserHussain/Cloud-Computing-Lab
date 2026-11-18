@@ -93,6 +93,40 @@ This repository contains the laboratory experiments and reports completed as par
 
 **Report:** [Lab_7_Report.pdf](Lab_7_Report.pdf)
 
+### Experiment 8 – Implementing Applications Using a Platform as a Service (PaaS) – Flask Web Application Deployed on a Cloud Platform
+
+- Studied the Platform as a Service (PaaS) cloud computing model.
+- Created a project folder named `Cloud-lab8`.
+- Developed a simple web application using Python and Flask.
+- Created `main.py` and `requirements.txt` for the application.
+- Installed Flask and Gunicorn and tested the application locally on port 8080.
+- Uploaded the project to GitHub and connected the repository to Render.
+- Configured and deployed the Flask application using Render's free web service.
+- Accessed the deployed application through its public URL.
+- Explored deployment history, application logs, and service settings.
+- Modified and redeployed the application through GitHub commits.
+- Verified automatic deployment by successfully deploying Application Versions 2 and 3.
+
+**Report:** [Lab_8_Report.pdf](Lab_8_Report.pdf)
+
+### Experiment 9 – Develop MapReduce Application Using Hadoop Cluster Setup
+
+- Installed and configured OpenJDK 17 and Apache Hadoop 3.4.2 on Ubuntu Linux.
+- Configured Hadoop environment variables and XML configuration files.
+- Set up a single-node pseudo-distributed Hadoop cluster.
+- Configured SSH for passwordless localhost communication.
+- Formatted the HDFS NameNode and started Hadoop services.
+- Verified NameNode, DataNode, SecondaryNameNode, ResourceManager, and NodeManager using `jps`.
+- Created directories in HDFS and uploaded sample input data.
+- Developed a WordCount application using Java and the Hadoop MapReduce framework.
+- Compiled the Java program and created the `wordcount.jar` file.
+- Executed the MapReduce job using Hadoop and YARN.
+- Verified the successful execution and word frequency output.
+- Explored the Hadoop NameNode and ResourceManager web interfaces.
+- Examined HDFS file blocks using the `hdfs fsck` command and verified filesystem health.
+
+**Report:** [Lab_9_Report.pdf](Lab_9_Report.pdf)
+
 ## Technologies Used
 
 - Oracle VirtualBox
@@ -115,9 +149,17 @@ This repository contains the laboratory experiments and reports completed as par
 - Amazon CloudWatch
 - AWS CLI
 - Software as a Service (SaaS)
+- Platform as a Service (PaaS)
+- Flask
+- Gunicorn
+- Render
+- Apache Hadoop 3.4.2
+- Hadoop Distributed File System (HDFS)
+- Hadoop YARN
+- MapReduce
+- Git & GitHub
 - Google Docs, Google Sheets and Google Slides
 - Google Meet, Microsoft Teams and Zoom
-- Git & GitHub
 
 ## Repository Structure
 
@@ -131,5 +173,11 @@ Cloud-Computing-Lab/
 ├── Lab4_SDN_Report.pdf
 ├── Lab5_Cloud_Scheduling_Report.pdf
 ├── Lab_6_Report.pdf
-└── Lab_7_Report.pdf
+├── Lab_7_Report.pdf
+├── Lab_8_Report.pdf
+├── Lab_9_Report.pdf
+│
+└── Cloud-lab8/
+    ├── main.py
+    └── requirements.txt
 ```
