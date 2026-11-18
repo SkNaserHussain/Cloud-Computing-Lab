@@ -12,9 +12,10 @@ def home():
     </head>
     <body>
         <h1>Welcome to Cloud Computing Lab 8</h1>
-        <h2>Application Version 2</h2>
+        <h2>Application Version 3</h2>
         <p>Successfully deployed using Render.</p>
         <p>This application demonstrates Platform as a Service (PaaS).</p>
+        <p>Automatic deployment verified successfully.</p>
     </body>
     </html>
     """
