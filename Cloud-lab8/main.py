@@ -11,10 +11,10 @@ def home():
         <title>Cloud Computing Lab 8</title>
     </head>
     <body>
-        <h1>Cloud Computing Lab 8</h1>
-        <p>Application successfully implemented using Flask.</p>
+        <h1>Welcome to Cloud Computing Lab 8</h1>
+        <h2>Application Version 2</h2>
+        <p>Successfully deployed using Render.</p>
         <p>This application demonstrates Platform as a Service (PaaS).</p>
-        <h3>Hosted using Render</h3>
     </body>
     </html>
     """
