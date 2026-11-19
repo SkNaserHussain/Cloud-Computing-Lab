@@ -8,10 +8,10 @@ def home():
     return """
     <html>
     <head>
-        <title>Cloud Computing Lab 8</title>
+        <title>Cloud Computing Lab testing</title>
     </head>
     <body>
-        <h1>Welcome to Cloud Computing Lab 8</h1>
+        <h1>Welcome to Cloud Computing Lab testing</h1>
         <h2>Application Version 3</h2>
         <p>Successfully deployed using Render.</p>
         <p>This application demonstrates Platform as a Service (PaaS).</p>
